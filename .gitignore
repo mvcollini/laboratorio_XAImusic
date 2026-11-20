@@ -1,0 +1,32 @@
+
+# Ambiente virtuale
+.venv/
+
+# Dataset XMIDI
+.venv/data/
+
+# File temporanei Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# File temporanei Jupyter
+.ipynb_checkpoints/
+
+# File di sistema macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# File temporanei IDE
+.idea/
+.vscode/
+
+# File temporanei
+*.log
+*.tmp
+
+#file troppo grandi
+risultati/xmidi_features/
+risultati/xmidi_features_cleaned.csv
+risultati/xmidi_features_complete.csv
